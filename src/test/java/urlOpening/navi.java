@@ -12,6 +12,7 @@ public class navi {
         WebDriver driver = new ChromeDriver();
         driver.get("https://hatem-hatamleh.github.io/Selenium-html/");
         driver.quit();
+        System.out.println();
 
     }
 }
