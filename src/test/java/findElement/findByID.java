@@ -7,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 @Test
-public class findBy {
+public class findByID {
 
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
