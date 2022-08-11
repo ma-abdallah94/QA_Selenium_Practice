@@ -1,6 +1,7 @@
 package actions;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -17,9 +18,9 @@ public class Clicking {
         // String testClass = driver.findElement(csss).getText();
         // WebElement element = driver.findElement(csss);
         driver.manage().window().maximize();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
-        //driver.findElement(By.xpath("/html/body/form/table/tbody/tr[1]/td[2]/input")).sendKeys("ma.abdallah94@ggmail.com");
-        //driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[2]/input")).sendKeys("12233!@#");
+        //driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
+        driver.findElement(By.xpath("/html/body/form/table/tbody/tr[1]/td[2]/input")).sendKeys("ma",Keys.SPACE ,"ma");
+        //driver.findElement(By.xpath("/html/body/form/table/tbody/tr[2]/td[2]/input")).sendKeys();
         //driver.findElement(By.xpath("//html/body/div[7]/form/div/label/input")).click();
         //driver.findElement(By.xpath("/html/body/form/table/tbody/tr[3]/td[2]/input[2]")).click();
         //driver.close();
